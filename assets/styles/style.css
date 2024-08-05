@@ -45,3 +45,119 @@
     isolation: isolate;
   }
 
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 50;
+  letter-spacing: 1px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5% 2%;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  margin-left: 4%;
+}
+
+.navbar {
+  margin-right: 4%;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  margin-left: 80px;
+}
+
+.navbar a::before {
+  content: '';
+  position: absolute;
+  top: 100%;
+}
+
+.container1 {
+  display: flex;
+}
+
+.content1 {
+  width: 50%;
+  padding: 3% 6%;
+}
+
+.myPosition {
+  color: 607cab;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.myName {
+  line-height: normal;
+  font-size: 83px;
+  font-weight: 600;
+  text-shadow: 0px 2px 5px grey;
+  margin: 20px 0px;
+}
+
+.myDetails {
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.button {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+.btn1 {
+  background-color: 607cab;
+  border: 2px solid #607cab;
+  border-radius: 8px;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn2 {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 8px;
+  color: black;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.myImage {
+  display: inline;
+  width: 50%;
+}
+
+.img {
+  margin-left: 120;
+  margin-top: -120px;
+  margin-right: -80px;
+}
